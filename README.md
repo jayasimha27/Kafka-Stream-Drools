@@ -2,7 +2,7 @@
 A demo combining Kafka Streams and Drools to create a lightweight real-time rules engine.
 
 Kafka Streams
-This new lightweight API (< 9000 lines of code) within Kafka allows data to be processed in real-time in the Kafka brokers themselves - 
+A lightweight API (< 9000 lines of code) within Kafka allows data to be processed in real-time in the Kafka brokers themselves - 
 no additional services need to be installed on the cluster, and no additional management or coordinator job is required. 
 A full overview of Kafka Streams can be found on website https://kafka.apache.org/documentation/streams/. 
 
