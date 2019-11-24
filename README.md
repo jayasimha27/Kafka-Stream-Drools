@@ -13,6 +13,6 @@ it prepends the message with 0), and write it to an output topic.
 The application itself can be run by following the
 
 1. Create the topics inputTopic and outputTopic (or change config.properties within the project before building it).
-2. Build the kafka-streams-drools project with mvn clean install, move the resulting fat JAR onto a node within the cluster, and then run it with java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar uk.co.hadoopathome.kafkastreams.KafkaStreamsDroolsMain. Do this step instead of executing the ./bin/kafka-run-class command.
+2. Build the kafka-streams-drools project with mvn clean install, move the resulting fat JAR onto a node within the cluster, and then run it with java -cp kafka-streams-drools-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.poc.kafkastreams.KafkaStreamsDroolsMain. Do this step instead of executing the ./bin/kafka-run-class command.
 
 If a Kafka environment is already present, only follow step 2.
